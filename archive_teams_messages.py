@@ -54,17 +54,17 @@ def pullSingleChannelMessagesInGroup(groupID, channelID):
 
         # Get JSON and save to file
         chat = pullMessagesIntoJSON(groupID, channelID)
-        f = open(channelID + "_output.json", "w")
+        f = open("myChannel_output.json", "w")
         f.write(json.dumps(chat))
         f.close()
-        print('Saved raw JSON to ' + str(channelID) + "_output.json")
+        print("Saved raw JSON to myChannel_output.json")
 
         # Parse into HTML and save to file
         chatHTML = parseJSONintoHTML(chat)
-        f = open(channelID + "_output.html", "w")
+        f = open("myChannel_output.html", "w")
         f.write(json.dumps(chatHTML))
         f.close()
-        print('Saved HTML to ' + str(channelID) + "_output.html")
+        print("Saved HTML to myChannel_output.html")
 
 
 def pullfromAPI(url):
