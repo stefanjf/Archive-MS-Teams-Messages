@@ -65,7 +65,7 @@ Example for "AF Analytic Community" group:
 pullAllChannelMessagesInGroup('3055aa2d-b68d-4a8d-861c-0965de9ad15d')
 ```
 
-This will pull messages from all channels in that group and output ```.json``` and ```.html``` files for each channel in the current working directory.
+This will pull messages from all channels in that group and output ```.json``` and ```.html``` files into the current working directory.
 
 ### Step 3 (Option B) - Download all messages from a __single channel__
 Run ```pullSingleChannelMessagesInGroup("groupID", "channelID")``` where ```groupID``` and ```channelID``` are the relevant ids from the previous step. 
@@ -75,4 +75,4 @@ Example for "General" channel of the "AF Analytic Community" group:
 pullSingleChannelMessagesInGroup('3055aa2d-b68d-4a8d-861c-0965de9ad15d', '19:9dccd09179a7478e9a99cd527eec3326@thread.skype')
 ```
 
-This will pull messages from that channel and output ```.json``` and ```.html``` files in the current working directory.
+This will pull messages from that channel and output ```.json``` and ```.html``` files into the current working directory.
