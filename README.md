@@ -4,9 +4,7 @@
 
 This was written to support CVR Teams migration efforts. However, it should work on any Teams tenant that is accessible from the Microsoft Graph API.
 
-This code uses the Microsoft Graph API to pull and output all messages (and replies) from a channel(s) in a Team. The function ```pullMessagesIntoJSON``` will download all the messages/replies. This can be saved as JSON or parsed with ```parseJSONintoHTML``` and saved as an HTML file for easy reading. 
-
-Here's an example of what the HTML output looks like:
+This code uses the Microsoft Graph API to pull and output all messages (and replies) from a channel(s) in a Team. It outputs JSON and a parsed HTML version of the channel's messages. Here's an example of what the HTML output looks like:
 
 <img src="imgs/example_html_output.png" alt="ex"
 	title="A cute kitten" width="600"  />
