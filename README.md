@@ -1,4 +1,5 @@
 # Archive MS Teams Channel Messages
+**Having problems running this to archive your CVR Teams messages? Drop me a note at stefan.fernandez.1@us.af.mil and I'd be happy to archive your channels (if you give me permissions to your Team).**
 
 ## Overview
 
