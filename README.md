@@ -11,8 +11,8 @@ This code uses the Microsoft Graph API to pull and output all messages (and repl
 
 ### Prerequisites
 - Python 3
-        -- Must have these packages installed: requests, datetime, yaspin
-
+        -- Must have these packages installed: requests, datetime, yaspin, python-dateutil
+        ``` pip install requests datetime yaspin python-dateutil```
 
 __NOTE: For those archiving from (DOD) CVR Teams, the data may include FOUO/CUI. Recommend only running this code from an appropriate computer.__
 
