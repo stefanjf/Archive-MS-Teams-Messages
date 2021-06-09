@@ -29,6 +29,7 @@ a) Navigate to https://developer.microsoft.com/en-us/graph/graph-explorer
 b) Sign in with your CVR Teams account  
 c) Run any query  
 d) Click the 'Access Token' tab and copy the token for later use.   
+e) (optional) put this token-string in a file named 'token' in the working directory
 
 ![token](imgs/token.png)
 
@@ -46,6 +47,7 @@ Set your user auth token that you got from Step 0
 ```
 setToken('super-long-auth-token-here')
 ```
+If you put the string in a file named 'token' (optional step 0.e, above) this should happen automatically and you can skip this step here.
 
 Then run ```listMyTeams()``` to show Teams and Channels that you belong to. Example output below:
 ```

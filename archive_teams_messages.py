@@ -2,9 +2,19 @@
 import requests, json, datetime, re, dateutil.parser, sys
 from yaspin import yaspin
 
+import os.path
+from os import path
+
 this = sys.modules[__name__]
 
 this.token = ''
+
+if (path.isfile('token')):
+    print('Found token file')
+    with open('token') as f:
+        this.token = f.read().strip()
+else:
+    print('No token file found')
 
 def setToken(mytoken):
     this.token = mytoken
