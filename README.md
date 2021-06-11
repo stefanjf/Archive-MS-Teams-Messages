@@ -1,6 +1,9 @@
 # Archive MS Teams Channel Messages
 **Having problems running this to archive your CVR Teams messages? Drop me a note at stefan.fernandez.1@us.af.mil and I'd be happy to archive your channels (if you give me permissions to your Team).**
 
+This tool was developed by Stefan Fernandez.
+This version has additional features added by Dan Risacher (daniel.r.risacher.civ@mail.mil)
+
 ## Overview
 
 This was written to support CVR Teams migration efforts. However, it should work on any Teams tenant that is accessible from the Microsoft Graph API.
@@ -76,3 +79,10 @@ pullSingleChannelMessagesInGroup('3055aa2d-b68d-4a8d-861c-0965de9ad15d', '19:9dc
 ```
 
 This will pull messages from that channel and output ```.json``` and ```.html``` files into the current working directory.
+
+### Step 3 (Option C) - Download all messages from __all channels__ in __all teams__
+Run ```pullAllChannelsInAllGroups()``` 
+
+This will pull messages from all channels in all groups that the user is a member of and output to  ```teamname/channelname.json``` and ```teamname/channelname.html``` files 
+
+
